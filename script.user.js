@@ -114,6 +114,16 @@
     // -----------------
     'View All': '查看全部',
     // -----------------
+    'Copy Link to View' : '复制页面链接',
+    'Properties' : '属性',
+    'Group by ' : '基于',
+    'Filter' : '过滤',
+    'Sort' : '排序',
+    'Search' : '搜索',
+    'New' : '新增',
+    'Empty Page' : '空页面',
+    'New Template' : '新的模版',
+    'Edit' : '编辑',
     // 块选项
     'Hide': '隐藏',
     'Create new page': '创建',
@@ -166,7 +176,7 @@
       'You can set a permanent password if you don\'t want to use temporary login codes.': '如果您不想使用临时登录码，则可以设置永久密码。',
       'Change Password': '更改密码',
       'Remove Password': '移除密码',
-      'Calendar': '日历设置',
+      'Calendar': '日历',
       'Start week on Monday': '一周从星期一开始',
       'This will change how all calendars in your app look.': '这将会更改您应用中所有日历的外观。',
       'Danger Zone': '危险操作',
@@ -194,7 +204,7 @@
       'Learn how to earn and apply credits.': '学习更多',
       "Credit Balance" : "获取奖励",
       'Your current credit balance is': '已获取奖励为',
-      'That\'s equivalent to': '这相当于',
+      'That\\\'s equivalent to': '这相当于',
       'month': '个月',
       'of free Notion.': '的免费使用',
       'Upgrade for free': '免费升级套餐',
@@ -306,7 +316,12 @@
     ' (↑↓ to select)': ' (↑↓ 键选择)',
     'Empty With Icon': '空白有图标',
     'Empty': '空白',
-    'Database': '数据库'
+    'Database': '数据库',
+    'Table': '表格',
+    'Board': '看板',
+    'List': '列表',
+    'Calendar': '日历',
+    'Gallery': '图库'
   });
 
 
