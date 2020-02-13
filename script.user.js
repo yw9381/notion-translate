@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Notion-Translate
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.3.1
 // @description  Truns Notion to local language
 // @author       L1n3
 // @match        *://www.notion.so/*
