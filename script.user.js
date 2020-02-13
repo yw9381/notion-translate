@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Notion-Translate
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.3.1
 // @description  Truns Notion to local language
 // @author       L1n3
 // @match        *://www.notion.so/*
@@ -53,7 +53,7 @@
     // -----------------
     'Share': '分享',
     'Updates': '更新',
-    'Favorites': '喜欢',
+    'Favorite': '收藏',
     'Templates': '模板',
     'Import': '导入',
     'Trash': '垃圾桶',
@@ -90,29 +90,8 @@
     
     // -----------------
     'No Pages Inside' : '没有更多页面',
-
-    // -----------------
-    // 搜索
-    'By Status': '按状态分类',
-    'My Tasks': '我的任务',
-    'By Priority': '按优先级分类',
-    'By Assignee': '按负责人',
-    'All Tasks': '所有任务',
-    'Due Dates': '截止日期',
     // -----------------
     'Default View': '默认视图',
-    // -----------------
-    'All Docs': '所有文档',
-    // 'Product Specs': '',
-    // 'One Pagers': '',
-    'Created By Me': '我创建的文档',
-    'Stakeholders Include Me': '与我有关',
-    // 'In Review': '',
-    // -----------------
-    'List View': '查看列表',
-    'By Meeting Type': '按会议类型',
-    // -----------------
-    'View All': '查看全部',
     // -----------------
     'Copy Link to View' : '复制页面链接',
     'Properties' : '属性',
@@ -151,9 +130,12 @@
     'Open in Windows App': '在客户端中打开',
     'Undo': '撤销',
     'Page History': '历史修改',
+    'Show Deleted Pages':'显示已经删除的页面',
     'Copy Link': '复制链接',
     'Rename': '重命名',
     'Move To': '移动到',
+    'Word Count: ':"字数统计",
+
     'Edit Property': '编辑属性',
     'Comment': '评论',
     'Color': '颜色',
@@ -271,6 +253,7 @@
       "Page" : '个页面',
     // -----------------
     'Upgrade': '升级',
+    'Plans':'方案',
       'Free' : '免费',
       'Personal' : '个人',
       'Team' : '团队',
@@ -295,14 +278,6 @@
       'Dedicated manager': '升级',
       'Custom contract & invoicing': '升级',
       'Current Plan': '当前计划',
-      'Upgrade': '升级',
-      'Upgrade': '升级',
-      'Upgrade': '升级',
-      'Upgrade': '升级',
-      'Upgrade': '升级',
-      'Upgrade': '升级',
-      'Upgrade': '升级',
-      'Upgrade': '升级',
       'Upgrade': '升级',
     'Security & SAML': '安全 & SAML',
     'Dark Mode': '夜间模式',
